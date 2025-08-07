@@ -4,5 +4,5 @@
 
 ![pic](assets/gfx/noise_768_512_20250805_063849.png)
 
-**itch**:
-##https://mokatunprod.itch.io/maze-image
+# WEB DEMO
+**https://mokatunprod.itch.io/maze-image**
