@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="90" height="51" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="544">
+ <editorsettings>
+  <export target="levelX.lua" format="lua"/>
+ </editorsettings>
+ <objectgroup id="10" name="infos">
+  <object id="484" name="info3" x="16" y="828" width="96" height="16"/>
+  <object id="107" name="info2" x="16" y="800" width="96" height="16"/>
+  <object id="106" name="info1" x="16" y="772" width="96" height="16"/>
+ </objectgroup>
+ <objectgroup id="21" name="shortcuts">
+  <object id="531" name="QUIT-_SC" x="1324" y="16" width="40" height="16">
+   <text pixelsize="12" wrap="1">ESC</text>
+  </object>
+  <object id="540" name="SEED_SC" x="128" y="328" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 6</text>
+  </object>
+  <object id="541" name="SEED_SC" x="80" y="328" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 4</text>
+  </object>
+  <object id="542" name="RANDOM_SEED_SC" x="332" y="336" width="36" height="16">
+   <text pixelsize="12" wrap="1">NUM 5</text>
+  </object>
+  <object id="543" name="EXPORT_SC" x="28" y="676" width="96" height="20">
+   <text pixelsize="12" wrap="1">NUM ENTER</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="params">
+  <object id="520" name="SAVE" x="28" y="696" width="84" height="32"/>
+  <object id="530" name="OPENEND" x="240" y="48" width="88" height="32"/>
+  <object id="517" name="NUM_ROW_TEXT" x="172" y="168" width="116" height="20">
+   <text wrap="1">maze rows (odd)</text>
+  </object>
+  <object id="524" name="ROW+" x="140" y="172" width="16" height="16"/>
+  <object id="525" name="ROW-" x="96" y="172" width="16" height="16"/>
+  <object id="516" name="ROWS" x="16" y="172" width="56" height="16"/>
+  <object id="515" name="NUM_COL_TEXT" x="172" y="124" width="112" height="20">
+   <text wrap="1">maze cols (odd)</text>
+  </object>
+  <object id="179" name="COL+" x="140" y="128" width="16" height="16"/>
+  <object id="178" name="COL-" x="96" y="128" width="16" height="16"/>
+  <object id="173" name="COLS" x="16" y="128" width="56" height="16"/>
+  <object id="514" name="CELL_H_TEXT" x="172" y="264" width="104" height="20">
+   <text wrap="1">cell height</text>
+  </object>
+  <object id="512" name="CELL_H+" x="140" y="268" width="16" height="16"/>
+  <object id="511" name="CELL_H-" x="96" y="268" width="16" height="16"/>
+  <object id="510" name="CELL_H" x="16" y="268" width="56" height="16"/>
+  <object id="513" name="CELL_W_TEXT" x="172" y="220" width="96" height="20">
+   <text wrap="1">cell width</text>
+  </object>
+  <object id="419" name="CELL_W+" x="140" y="224" width="16" height="16"/>
+  <object id="418" name="CELL_W-" x="96" y="224" width="16" height="16"/>
+  <object id="417" name="CELL_W" x="16" y="224" width="56" height="16"/>
+  <object id="536" name="RANDOM_SEED" x="256" y="332" width="60" height="28"/>
+  <object id="535" name="SEED_TEXT" x="172" y="340" width="40" height="20">
+   <text wrap="1">seed</text>
+  </object>
+  <object id="534" name="SEED+" x="140" y="344" width="16" height="16"/>
+  <object id="533" name="SEED-" x="96" y="344" width="16" height="16"/>
+  <object id="532" name="SEED" x="16" y="344" width="56" height="16"/>
+ </objectgroup>
+ <objectgroup id="2" name="menu">
+  <object id="528" name="RESET_MAZE_POS" x="96" y="20" width="32" height="32"/>
+  <object id="56" name="COLOR_PICKER" x="20" y="12" width="48" height="48"/>
+  <object id="529" name="EXIT" x="1324" y="32" width="84" height="32"/>
+ </objectgroup>
+</map>

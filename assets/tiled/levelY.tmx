@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="90" height="51" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="598">
+ <editorsettings>
+  <export target="levelY.lua" format="lua"/>
+ </editorsettings>
+ <objectgroup id="10" name="infos">
+  <object id="484" name="info3" x="16" y="844" width="96" height="16"/>
+  <object id="107" name="info2" x="16" y="816" width="96" height="16"/>
+  <object id="106" name="info1" x="16" y="788" width="96" height="16"/>
+ </objectgroup>
+ <objectgroup id="21" name="shortcuts">
+  <object id="578" name="QUIT-_SC" x="1324" y="16" width="40" height="16">
+   <text pixelsize="12" wrap="1">ESC</text>
+  </object>
+  <object id="566" name="EXPORT_SC" x="28" y="696" width="96" height="16">
+   <text pixelsize="12" wrap="1">NUM ENTER</text>
+  </object>
+  <object id="565" name="RANDOM_SEED_SC" x="344" y="352" width="36" height="16">
+   <text pixelsize="12" wrap="1">NUM 5</text>
+  </object>
+  <object id="567" name="NOISE_SC" x="12" y="284" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 7</text>
+  </object>
+  <object id="568" name="NOISE_SC" x="60" y="284" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 9</text>
+  </object>
+  <object id="581" name="SEED_SC" x="96" y="344" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 4</text>
+  </object>
+  <object id="582" name="SEED_SC" x="144" y="344" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 6</text>
+  </object>
+  <object id="583" name="NUM_SC" x="392" y="688" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM .</text>
+  </object>
+  <object id="592" name="NUM2_SC" x="264" y="688" width="36" height="16">
+   <text pixelsize="12" wrap="1">NUM 2</text>
+  </object>
+  <object id="593" name="NUM3_SC" x="144" y="632" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 3</text>
+  </object>
+  <object id="594" name="NUM1_SC" x="100" y="632" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 1</text>
+  </object>
+  <object id="597" name="NUM_SC" x="326" y="708" width="40" height="16">
+   <text pixelsize="12" wrap="1">NUM 0</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="resets">
+  <object id="569" name="widthreset" x="296" y="96" width="20" height="16"/>
+  <object id="570" name="heightreset" x="296" y="140" width="20" height="16"/>
+  <object id="572" name="frequencyreset" x="380" y="404" width="20" height="16"/>
+  <object id="573" name="octavesreset" x="380" y="448" width="20" height="16"/>
+  <object id="574" name="lacunarityreset" x="380" y="492" width="20" height="16"/>
+  <object id="575" name="fractalgainreset" x="400" y="592" width="20" height="16"/>
+  <object id="576" name="offsetxreset" x="332" y="192" width="20" height="16"/>
+  <object id="577" name="offsetyreset" x="332" y="236" width="20" height="16"/>
+ </objectgroup>
+ <objectgroup id="12" name="params">
+  <object id="520" name="EXPORT" x="28" y="712" width="96" height="32"/>
+  <object id="542" name="NOISE_TEXT" x="104" y="296" width="60" height="20">
+   <text wrap="1">noise</text>
+  </object>
+  <object id="541" name="NOISE+" x="72" y="300" width="16" height="16"/>
+  <object id="540" name="NOISE-" x="28" y="300" width="16" height="16"/>
+  <object id="539" name="NOISE" x="224" y="300" width="56" height="16"/>
+  <object id="517" name="HEIGHT_TEXT" x="180" y="136" width="48" height="20">
+   <text wrap="1">height</text>
+  </object>
+  <object id="524" name="HEIGHT+" x="148" y="140" width="16" height="16"/>
+  <object id="525" name="HEIGHT-" x="104" y="140" width="16" height="16"/>
+  <object id="516" name="HEIGHT" x="16" y="140" width="56" height="16"/>
+  <object id="515" name="WIDTH_TEXT" x="180" y="92" width="48" height="20">
+   <text wrap="1">width</text>
+  </object>
+  <object id="179" name="WIDTH+" x="148" y="96" width="16" height="16"/>
+  <object id="178" name="WIDTH-" x="104" y="96" width="16" height="16"/>
+  <object id="173" name="WIDTH" x="16" y="96" width="56" height="16"/>
+  <object id="514" name="FREQUENCY_TEXT" x="188" y="400" width="72" height="20">
+   <text wrap="1">frequency</text>
+  </object>
+  <object id="512" name="FREQUENCY+" x="156" y="404" width="16" height="16"/>
+  <object id="511" name="FREQUENCY-" x="112" y="404" width="16" height="16"/>
+  <object id="510" name="FREQUENCY" x="16" y="404" width="56" height="16"/>
+  <object id="530" name="RANDOM_SEED" x="272" y="348" width="60" height="28"/>
+  <object id="513" name="SEED_TEXT" x="188" y="356" width="40" height="20">
+   <text wrap="1">seed</text>
+  </object>
+  <object id="419" name="SEED+" x="156" y="360" width="16" height="16"/>
+  <object id="418" name="SEED-" x="112" y="360" width="16" height="16"/>
+  <object id="417" name="SEED" x="16" y="360" width="56" height="16"/>
+  <object id="534" name="OCTAVES_TEXT" x="188" y="444" width="56" height="20">
+   <text wrap="1">octaves</text>
+  </object>
+  <object id="533" name="OCTAVES+" x="156" y="448" width="16" height="16"/>
+  <object id="532" name="OCTAVES-" x="112" y="448" width="16" height="16"/>
+  <object id="531" name="OCTAVES" x="16" y="448" width="56" height="16"/>
+  <object id="538" name="LACUNARITY_TEXT" x="188" y="488" width="72" height="20">
+   <text wrap="1">lacunarity</text>
+  </object>
+  <object id="537" name="LACUNARITY+" x="156" y="492" width="16" height="16"/>
+  <object id="536" name="LACUNARITY-" x="112" y="492" width="16" height="16"/>
+  <object id="535" name="LACUNARITY" x="16" y="492" width="56" height="16"/>
+  <object id="545" name="INTERP_TEXT" x="104" y="540" width="96" height="20">
+   <text wrap="1">interp</text>
+  </object>
+  <object id="544" name="INTERP+" x="72" y="544" width="16" height="16"/>
+  <object id="543" name="INTERP-" x="28" y="544" width="16" height="16"/>
+  <object id="546" name="INTERP" x="224" y="544" width="56" height="16"/>
+  <object id="550" name="FRACTALGAIN_TEXT" x="188" y="588" width="80" height="20">
+   <text wrap="1">fractal gain</text>
+  </object>
+  <object id="549" name="FRACTALGAIN+" x="156" y="592" width="16" height="16"/>
+  <object id="548" name="FRACTALGAIN-" x="112" y="592" width="16" height="16"/>
+  <object id="547" name="FRACTALGAIN" x="16" y="592" width="56" height="16"/>
+  <object id="558" name="OFFSETX_TEXT" x="180" y="188" width="56" height="20">
+   <text wrap="1">offset x</text>
+  </object>
+  <object id="557" name="OFFSETX+" x="148" y="192" width="16" height="16"/>
+  <object id="556" name="OFFSETX-" x="104" y="192" width="16" height="16"/>
+  <object id="555" name="OFFSETX" x="16" y="192" width="56" height="16"/>
+  <object id="562" name="OFFSETY_TEXT" x="180" y="232" width="104" height="20">
+   <text wrap="1">offset y</text>
+  </object>
+  <object id="561" name="OFFSETY+" x="148" y="236" width="16" height="16"/>
+  <object id="560" name="OFFSETY-" x="104" y="236" width="16" height="16"/>
+  <object id="559" name="OFFSETY" x="16" y="236" width="56" height="16"/>
+  <object id="580" name="SCALEY" x="348" y="136" width="28" height="24"/>
+  <object id="579" name="SCALEX" x="348" y="92" width="28" height="24"/>
+  <object id="591" name="RANDOM_COLORSEED" x="272" y="636" width="60" height="28"/>
+  <object id="590" name="COLORSEED_TEXT" x="188" y="644" width="40" height="20">
+   <text wrap="1">seed</text>
+  </object>
+  <object id="589" name="COLORSEED+" x="156" y="648" width="16" height="16"/>
+  <object id="588" name="COLORSEED-" x="112" y="648" width="16" height="16"/>
+  <object id="587" name="COLORSEED" x="16" y="648" width="56" height="16"/>
+  <object id="596" name="COLORCOUNT" x="400" y="640" width="28" height="24"/>
+ </objectgroup>
+ <objectgroup id="2" name="menu">
+  <object id="529" name="EXIT" x="1324" y="32" width="84" height="32"/>
+  <object id="528" name="RESET_POS" x="96" y="20" width="32" height="32"/>
+  <object id="56" name="COLOR_PICKER" x="20" y="12" width="48" height="48"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="810" logicalHeight="1440" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="30" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="5" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="1" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="1" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="maze image" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="Easing" enabled="1"/>
+            <plugin name="FastNoise" enabled="1"/>
+            <plugin name="JSON" enabled="1"/>
+            <plugin name="LuaFileSystem" enabled="0"/>
+            <plugin name="SceneManager" enabled="1"/>
+        </plugins>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value=""/>
+                <property name="androidSdk" value=""/>
+                <property name="androidTarget" value="30"/>
+                <property name="buildAab" value="1"/>
+                <property name="buildApk" value="0"/>
+                <property name="deployApk" value="0"/>
+                <property name="forOculus" value="0"/>
+                <property name="javaPath" value=""/>
+                <property name="keyAlias" value=""/>
+                <property name="keyStore" value=""/>
+                <property name="oculusHT" value="0"/>
+                <property name="oculusHTR" value="0"/>
+                <property name="oculusPT" value="0"/>
+                <property name="oculusPTR" value="0"/>
+                <property name="packageName" value="com.yourdomain.yourapp"/>
+                <property name="timestampApk" value="0"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/init.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="tiled">
+        <file name="assets/tiled/levelX.lua" excludeFromExecution="1"/>
+        <file name="assets/tiled/levelX.tmx"/>
+        <file name="assets/tiled/levelY.lua" excludeFromExecution="1"/>
+        <file name="assets/tiled/levelY.tmx"/>
+    </folder>
+    <folder name="scenes">
+        <file name="assets/scenes/levelX.lua"/>
+        <file name="assets/scenes/levelX_UI.lua"/>
+        <file name="assets/scenes/levelY.lua"/>
+        <file name="assets/scenes/levelY_UI.lua"/>
+        <file name="assets/scenes/menu.lua"/>
+    </folder>
+    <folder name="gfx">
+        <file name="assets/gfx/maze_35_17_20250804_040220.png"/>
+        <file name="assets/gfx/noise_768_512_20250805_063849.png"/>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/JetBrainsMono-Regular.ttf"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/buttons.lua"/>
+        <file name="assets/classes/color_picker.lua"/>
+        <file name="assets/classes/luaHex.lua"/>
+        <file name="assets/classes/save_prefs.lua"/>
+    </folder>
+    <folder name="audio">
+        <file name="assets/audio/_license_cc0.txt"/>
+        <file name="assets/audio/glass_05.wav"/>
+    </folder>
+</project>
